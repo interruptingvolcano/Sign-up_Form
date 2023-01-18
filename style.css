@@ -45,6 +45,7 @@ h3 {
   font-size: 2rem;
   margin-bottom: 0px;
   margin-top: 5px;
+  letter-spacing: 2px;
 }
 
 .intro {
@@ -65,6 +66,7 @@ h3 {
   background: rgba(49, 38, 30, .9);
   padding: 10px 22px 10px;
   border-radius: 10px;
+  box-shadow: 2px 2px 30px black;
 }
 
  div > label {
