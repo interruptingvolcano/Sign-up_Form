@@ -104,13 +104,14 @@ input.invalid + span {
 
 input.valid {
   outline: none;
-  border: 3px solid rgba(64, 224, 208, .9);;
+  border: 2px solid rgba(64, 224, 208, .9);;
 }
 
 input.invalid {
   outline: none;
-  border: 3px solid red;
+  border: 2px solid red;
 }
+
 
 button {
   margin-top: 30px;
