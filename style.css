@@ -77,17 +77,31 @@ h3 {
   grid-column: 1;
 }
 
+.last-name {
+  grid-column: 2;
+}
+
 .email {
   grid-column: 1;
+}
+
+.telephone {
+  grid-column: 2;
 }
 
 .password {
   grid-column: 1;
 }
 
+.passconfirm {
+  grid-column: 2;
+}
+
+
 input {
   margin-bottom: -5px;
   border-radius: 5px;
+  max-width: 150px;
 }
 
 span {
@@ -117,7 +131,7 @@ button {
   margin-top: 30px;
   margin-bottom: -6px;
   background: #31261e;
-  color: rgba(64, 224, 208, .9);
+  color: rgba(64, 224, 208, 1);
   padding: 8px;
   border-radius: 8px;
 
