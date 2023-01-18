@@ -1,0 +1,145 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-family: "tahoma", sans-serif;
+  color: #31261e;
+  background: #31261e;
+  margin-top: 20px;
+ 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  border-left: 5px solid rgba(64, 224, 208, .9);
+  border-bottom: 5px solid rgba(64, 224, 208, .9);
+  border-top: 5px solid rgba(64, 224, 208, .9);
+}
+
+.main {
+  max-width: 600px;
+  max-height: 761px;
+  padding:  0px 50px;
+  background: rgba(242,238,217,.6);
+  border-right: 5px solid rgba(64, 224, 208, .9); 
+  border-top: 5px solid rgba(64, 224, 208, .9);
+  border-bottom: 5px solid rgba(64, 224, 208, .9);
+}
+
+.form-heading {
+  text-align: center;
+  font-family: "trattatello", sans-serif;
+  margin-top: 20px;
+
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.intro {
+  font-size: .9rem;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.form-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 28px;
+  max-width: 370px;
+  margin: auto;
+  color: rgba(246, 245, 239, 0.6);
+  background: rgba(49, 38, 30, .9);
+  padding: 10px 22px 10px;
+  border-radius: 10px;
+}
+
+ div > label {
+  font-size: .7rem;
+}
+
+.first-name {
+  grid-column: 1;
+}
+
+.email {
+  grid-column: 1;
+}
+
+.password {
+  grid-column: 1;
+}
+
+input {
+  margin-bottom: -5px;
+  border-radius: 5px;
+}
+
+span {
+  font-size: .6rem;
+  color: rgb(236, 108, 108);
+  opacity: 0;
+}
+
+input.invalid + span {
+  font-size: .6rem;
+  color: rgb(236, 108, 108);
+  opacity: 1;
+}
+
+input.valid {
+  outline: none;
+  border: 3px solid rgba(64, 224, 208, .9);;
+}
+
+input.invalid {
+  outline: none;
+  border: 3px solid red;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: -6px;
+  background: #31261e;
+  color: rgba(64, 224, 208, .9);
+  padding: 8px;
+  border-radius: 8px;
+
+}
+
+.submit {
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: #31261e;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(242,238,217,.6);
+  font-size: .7rem;
+  margin-top: 300px;
+}
+
+
+
+
+
